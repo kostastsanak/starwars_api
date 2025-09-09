@@ -888,3 +888,20 @@ Bad Request: /api/votes/
 Bad Request: /api/votes/
 Bad Request: /api/votes/
 Bad Request: /api/votes/
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Method Not Allowed: /api/characters/
+Method Not Allowed: /api/characters/4/
+Bad Request: /api/characters/search/
+Created character: Luke Skywalker
+Created film: A New Hope
+Created starship: Millennium Falcon
+SWAPI request failed for https://test.com: Connection error
+Service Unavailable: /api/swapi/populate_all/
+Bad Request: /api/votes/
+Bad Request: /api/votes/
+Bad Request: /api/votes/
+Bad Request: /api/votes/

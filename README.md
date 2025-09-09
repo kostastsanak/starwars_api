@@ -9,6 +9,7 @@ A Django REST API that provides Star Wars data (characters, films, starships) wi
 - **SWAPI Integration**: Populate data from the Star Wars API
 - **Comprehensive API Documentation**: Swagger/OpenAPI interface
 - **Full Test Coverage**: 80%+ test coverage with mocked external calls
+- **Environment Variables**: Secure configuration management
 
 ## Quick Setup
 
@@ -28,7 +29,36 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-2. **Database setup:**
+2. **Environment Configuration:**
+```bash
+# Copy the example .env file
+cp .env.example .env  # or create a new .env file
+
+# Edit .env with your settings:
+# - Change SECRET_KEY to a new secure key
+# - Update database credentials
+# - Set DEBUG=False for production
+```
+
+**Example .env file:**
+```env
+# Django Configuration
+DEBUG=True
+SECRET_KEY=your-secret-key-here
+
+# Database Configuration
+DB_ENGINE=django.db.backends.postgresql
+DB_NAME=starwars_db
+DB_USER=your_db_user
+DB_PASSWORD=your_db_password
+DB_HOST=localhost
+DB_PORT=5432
+
+# CORS Configuration
+CORS_ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
+```
+
+3. **Database setup:**
 ```bash
 # Create PostgreSQL database 'starwars_db'
 createdb starwars_db
@@ -41,7 +71,7 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
-3. **Populate data:**
+4. **Populate data:**
 ```bash
 python manage.py runserver
 # POST to http://127.0.0.1:8000/api/swapi/populate_all/
@@ -107,7 +137,7 @@ open htmlcov/index.html  # View in browser
 ```
 
 ### Expected Results
-- **12+ tests** covering all major functionality
+- **42+ tests** covering all major functionality
 - **85%+ code coverage** (exceeds 80% requirement)
 - **All external API calls mocked** for reliable testing
 
@@ -115,12 +145,30 @@ open htmlcov/index.html  # View in browser
 
 ```
 starwars_api/
+├── .env                    # Environment variables (create from template)
 ├── core/                   # Star Wars data (Characters, Films, Starships)
 ├── voting/                 # Voting functionality  
 ├── starwars_api/          # Django project settings
 ├── .coveragerc            # Coverage configuration
-└── requirements.txt       # Dependencies
+├── requirements.txt       # Dependencies
+└── README.md             # This file
 ```
+
+## Environment Variables
+
+The application uses environment variables for secure configuration:
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `DEBUG` | Enable debug mode | `False` |
+| `SECRET_KEY` | Django secret key | **Required** |
+| `DB_NAME` | Database name | **Required** |
+| `DB_USER` | Database username | **Required** |
+| `DB_PASSWORD` | Database password | **Required** |
+| `DB_HOST` | Database host | `localhost` |
+| `DB_PORT` | Database port | `5432` |
+| `ALLOWED_HOSTS` | Comma-separated allowed hosts | `*` |
+| `CORS_ALLOWED_ORIGINS` | Comma-separated CORS origins | `http://localhost:3000` |
 
 ## Key Technologies
 
@@ -130,28 +178,31 @@ starwars_api/
 - **drf-spectacular** - API documentation
 - **django-filter** - Advanced filtering
 - **Coverage.py** - Test coverage analysis
+- **python-decouple** - Environment variable management
 
-## Environment Configuration
+## Security Features
 
-### Database Settings (settings.py)
-```python
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'starwars_db',
-        'USER': 'postgres',
-        'PASSWORD': 'your_password',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+- **Environment Variables**: Sensitive data stored securely
+- **Input Validation**: Comprehensive serializer validation
+- **CORS Configuration**: Controlled cross-origin access
+- **SQL Injection Protection**: Django ORM provides protection
+
+## For Production
+
+### Required Changes:
+```env
+DEBUG=False
+SECRET_KEY=your-production-secret-key
+ALLOWED_HOSTS=yourdomain.com,www.yourdomain.com
 ```
 
-### For Production
-- Set `DEBUG = False`
-- Configure proper `ALLOWED_HOSTS`
-- Use environment variables for secrets
+### Recommended Additions:
 - Set up proper logging
+- Configure static file serving
+- Use environment variables for all secrets
+- Set up SSL/HTTPS
+- Configure rate limiting
+- Add authentication if needed
 
 ## Testing Architecture
 
@@ -170,6 +221,7 @@ DATABASES = {
 - [x] **Error Handling**: Proper HTTP status codes and error messages
 - [x] **Unit Testing**: 80%+ coverage with mocked external calls
 - [x] **Documentation**: Comprehensive Swagger/OpenAPI documentation
+- [x] **Security**: Environment variables and secure configuration
 
 ---
 
