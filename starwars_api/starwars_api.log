@@ -1,0 +1,561 @@
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /swagger/
+Not Found: /redoc/
+Not Found: /schema/
+Not Found: /docs/
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\starwars_api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\starwars_api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Starting SWAPI data population
+SWAPI data population failed: relation "core_datasyncstatus" does not exist
+LINE 1: ...records", "core_datasyncstatus"."is_syncing" FROM "core_data...
+                                                             ^
+
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\manage.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\starwars_api\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Starting SWAPI data population
+SWAPI data population failed: relation "core_datasyncstatus" does not exist
+LINE 1: ...records", "core_datasyncstatus"."is_syncing" FROM "core_data...
+                                                             ^
+
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\core\models.py changed, reloading.
+Watching for file changes with StatReloader
+Starting SWAPI data population
+SWAPI request failed for https://swapi.dev/api/films/: HTTPSConnectionPool(host='swapi.dev', port=443): Max retries exceeded with url: /api/films/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1002)')))
+SWAPI data population failed: Failed to fetch films: Failed to fetch data from SWAPI: HTTPSConnectionPool(host='swapi.dev', port=443): Max retries exceeded with url: /api/films/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1002)')))
+Starting SWAPI data population
+SWAPI request failed for https://swapi.dev/api/films/: HTTPSConnectionPool(host='swapi.dev', port=443): Max retries exceeded with url: /api/films/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1002)')))
+SWAPI data population failed: Failed to fetch films: Failed to fetch data from SWAPI: HTTPSConnectionPool(host='swapi.dev', port=443): Max retries exceeded with url: /api/films/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1002)')))
+Starting SWAPI data population
+SWAPI request failed for https://swapi.dev/api/films/: HTTPSConnectionPool(host='swapi.dev', port=443): Max retries exceeded with url: /api/films/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1002)')))
+SWAPI data population failed: Failed to fetch films: Failed to fetch data from SWAPI: HTTPSConnectionPool(host='swapi.dev', port=443): Max retries exceeded with url: /api/films/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1002)')))
+Starting SWAPI data population
+SWAPI request failed for https://swapi.dev/api/films/: HTTPSConnectionPool(host='swapi.dev', port=443): Max retries exceeded with url: /api/films/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1002)')))
+SWAPI data population failed: Failed to fetch films: Failed to fetch data from SWAPI: HTTPSConnectionPool(host='swapi.dev', port=443): Max retries exceeded with url: /api/films/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1002)')))
+Starting SWAPI data population
+Created film: A New Hope
+Created film: The Empire Strikes Back
+Created film: Return of the Jedi
+Created film: The Phantom Menace
+Created film: Attack of the Clones
+Created film: Revenge of the Sith
+Populated 6 new films
+Created starship: CR90 corvette
+Created starship: Star Destroyer
+Created starship: Sentinel-class landing craft
+Created starship: Death Star
+Created starship: Millennium Falcon
+Created starship: Y-wing
+Created starship: X-wing
+Created starship: TIE Advanced x1
+Created starship: Executor
+Created starship: Rebel transport
+Created starship: Slave 1
+Created starship: Imperial shuttle
+Created starship: EF76 Nebulon-B escort frigate
+Created starship: Calamari Cruiser
+Created starship: A-wing
+Created starship: B-wing
+Created starship: Republic Cruiser
+Created starship: Droid control ship
+Created starship: Naboo fighter
+Created starship: Naboo Royal Starship
+Created starship: Scimitar
+Created starship: J-type diplomatic barge
+Created starship: AA-9 Coruscant freighter
+Created starship: Jedi starfighter
+Created starship: H-type Nubian yacht
+Created starship: Republic Assault ship
+Created starship: Solar Sailer
+Created starship: Trade Federation cruiser
+Created starship: Theta-class T-2c shuttle
+Created starship: Republic attack cruiser
+Created starship: Naboo star skiff
+Created starship: Jedi Interceptor
+Created starship: arc-170
+Created starship: Banking clan frigte
+Created starship: Belbullab-22 starfighter
+Created starship: V-wing
+Populated 36 new starships
+Created character: Luke Skywalker
+Created character: C-3PO
+Created character: R2-D2
+Created character: Darth Vader
+Created character: Leia Organa
+Created character: Owen Lars
+Created character: Beru Whitesun lars
+Created character: R5-D4
+Created character: Biggs Darklighter
+Created character: Obi-Wan Kenobi
+Created character: Anakin Skywalker
+Created character: Wilhuff Tarkin
+Created character: Chewbacca
+Created character: Han Solo
+Created character: Greedo
+Created character: Jabba Desilijic Tiure
+Created character: Wedge Antilles
+Created character: Jek Tono Porkins
+Created character: Yoda
+Created character: Palpatine
+Created character: Boba Fett
+Created character: IG-88
+Created character: Bossk
+Created character: Lando Calrissian
+Created character: Lobot
+Created character: Ackbar
+Created character: Mon Mothma
+Created character: Arvel Crynyd
+Created character: Wicket Systri Warrick
+Created character: Nien Nunb
+Created character: Qui-Gon Jinn
+Created character: Nute Gunray
+Created character: Finis Valorum
+Created character: Padmé Amidala
+Created character: Jar Jar Binks
+Created character: Roos Tarpals
+Created character: Rugor Nass
+Created character: Ric Olié
+Created character: Watto
+Created character: Sebulba
+Created character: Quarsh Panaka
+Created character: Shmi Skywalker
+Created character: Darth Maul
+Created character: Bib Fortuna
+Created character: Ayla Secura
+Created character: Ratts Tyerel
+Created character: Dud Bolt
+Created character: Gasgano
+Created character: Ben Quadinaros
+Created character: Mace Windu
+Created character: Ki-Adi-Mundi
+Created character: Kit Fisto
+Created character: Eeth Koth
+Created character: Adi Gallia
+Created character: Saesee Tiin
+Created character: Yarael Poof
+Created character: Plo Koon
+Created character: Mas Amedda
+Created character: Gregar Typho
+Created character: Cordé
+Created character: Cliegg Lars
+Created character: Poggle the Lesser
+Created character: Luminara Unduli
+Created character: Barriss Offee
+Created character: Dormé
+Created character: Dooku
+Created character: Bail Prestor Organa
+Created character: Jango Fett
+Created character: Zam Wesell
+Created character: Dexter Jettster
+Created character: Lama Su
+Created character: Taun We
+Created character: Jocasta Nu
+Created character: R4-P17
+Created character: Wat Tambor
+Created character: San Hill
+Created character: Shaak Ti
+Created character: Grievous
+Created character: Tarfful
+Created character: Raymus Antilles
+Created character: Sly Moore
+Created character: Tion Medon
+Populated 82 new characters
+SWAPI data population completed: {'films_created': 6, 'starships_created': 36, 'characters_created': 82, 'total_films': 6, 'total_starships': 36, 'total_characters': 82, 'success': True, 'message': 'Data population completed successfully'}
+Starting SWAPI data population
+SSL certificate verification failed for https://swapi.dev/api/films/. Falling back to unverified request.
+Populated 0 new films
+SSL certificate verification failed for https://swapi.dev/api/starships/. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/starships/?page=2. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/starships/?page=3. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/starships/?page=4. Falling back to unverified request.
+Populated 0 new starships
+SSL certificate verification failed for https://swapi.dev/api/people/. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=2. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=3. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=4. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=5. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=6. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=7. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=8. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=9. Falling back to unverified request.
+Populated 0 new characters
+SWAPI data population completed: {'films_created': 0, 'starships_created': 0, 'characters_created': 0, 'total_films': 6, 'total_starships': 36, 'total_characters': 82, 'success': True, 'message': 'Data population completed successfully'}
+Starting SWAPI data population
+SSL certificate verification failed for https://swapi.dev/api/films/. Falling back to unverified request.
+Populated 0 new films
+SSL certificate verification failed for https://swapi.dev/api/starships/. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/starships/?page=2. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/starships/?page=3. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/starships/?page=4. Falling back to unverified request.
+Populated 0 new starships
+SSL certificate verification failed for https://swapi.dev/api/people/. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=2. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=3. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=4. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=5. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=6. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=7. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=8. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=9. Falling back to unverified request.
+Populated 0 new characters
+SWAPI data population completed: {'films_created': 0, 'starships_created': 0, 'characters_created': 0, 'total_films': 6, 'total_starships': 36, 'total_characters': 82, 'success': True, 'message': 'Data population completed successfully'}
+Watching for file changes with StatReloader
+Starting SWAPI data population
+SSL certificate verification failed for https://swapi.dev/api/films/. Falling back to unverified request.
+Populated 0 new films
+SSL certificate verification failed for https://swapi.dev/api/starships/. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/starships/?page=2. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/starships/?page=3. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/starships/?page=4. Falling back to unverified request.
+Populated 0 new starships
+SSL certificate verification failed for https://swapi.dev/api/people/. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=2. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=3. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=4. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=5. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=6. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=7. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=8. Falling back to unverified request.
+SSL certificate verification failed for https://swapi.dev/api/people/?page=9. Falling back to unverified request.
+Populated 0 new characters
+SWAPI data population completed: {'films_created': 0, 'starships_created': 0, 'characters_created': 0, 'total_films': 6, 'total_starships': 36, 'total_characters': 82, 'success': True, 'message': 'Data population completed successfully'}
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\core\services.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\core\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\core\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Starting SWAPI data population...
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /api/swapi/
+Not Found: /favicon.ico
+Not Found: /api/swapi/docs/
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /api/do/cs
+Internal Server Error: /api/characters/
+Traceback (most recent call last):
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "swapi_id" of relation "core_character" violates not-null constraint
+DETAIL:  Failing row contains (83, 2025-09-08 22:46:57.979063+00, 2025-09-08 22:46:57.979063+00, null, Test Character, 180, 80, null, null, null, null, male).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "swapi_id" of relation "core_character" violates not-null constraint
+DETAIL:  Failing row contains (83, 2025-09-08 22:46:57.979063+00, 2025-09-08 22:46:57.979063+00, null, Test Character, 180, 80, null, null, null, null, male).
+
+Internal Server Error: /api/characters/
+Traceback (most recent call last):
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "swapi_id" of relation "core_character" violates not-null constraint
+DETAIL:  Failing row contains (84, 2025-09-08 22:47:41.832291+00, 2025-09-08 22:47:41.832291+00, null, Luke Skywalker, 172, 77, blond, fair, blue, 19BBY, male).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "swapi_id" of relation "core_character" violates not-null constraint
+DETAIL:  Failing row contains (84, 2025-09-08 22:47:41.832291+00, 2025-09-08 22:47:41.832291+00, null, Luke Skywalker, 172, 77, blond, fair, blue, 19BBY, male).
+
+Internal Server Error: /api/characters/
+Traceback (most recent call last):
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "swapi_id" of relation "core_character" violates not-null constraint
+DETAIL:  Failing row contains (85, 2025-09-08 22:47:52.773513+00, 2025-09-08 22:47:52.773513+00, null, Luke Skywalker, 172, 77, blond, fair, blue, 19BBY, male).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\rest_framework\serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "swapi_id" of relation "core_character" violates not-null constraint
+DETAIL:  Failing row contains (85, 2025-09-08 22:47:52.773513+00, 2025-09-08 22:47:52.773513+00, null, Luke Skywalker, 172, 77, blond, fair, blue, 19BBY, male).
+
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Bad Request: /api/characters/search/
+Not Found: /favicon.ico
+Not Found: /api/characters/
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /api/votes/1/
+Bad Request: /api/votes/
+Bad Request: /api/votes/
+Bad Request: /api/votes/
+Bad Request: /api/votes/
+Not Found: /api/votes/125124123/
+Bad Request: /api/votes/
+Bad Request: /api/votes/
+Not Found: /api/characters/1/
+Starting SWAPI data population via API endpoint
+Starting SWAPI data population...
+Created character: Luke Skywalker
+Starting SWAPI data population via API endpoint
+Starting SWAPI data population...
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /api/characters/1/
+Bad Request: /api/characters/search/
+Bad Request: /api/characters/search/
+Bad Request: /api/characters/search/
+Bad Request: /api/characters/search/
+Bad Request: /api/characters/search/
+Bad Request: /api/characters/search/
+Bad Request: /api/films/search/
+Bad Request: /api/starships/search/
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\core\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\starwars_api\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\starwars_api\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\core\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\tsanak\Desktop\uphellas\starwars_api\starwars_api\core\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
