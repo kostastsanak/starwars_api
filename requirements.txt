@@ -1,9 +1,0 @@
-Django>=4.2
-djangorestframework
-psycopg2-binary
-requests
-django-filter
-drf-spectacular
-django-cors-headers
-coverage
-python-decouple
