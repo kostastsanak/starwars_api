@@ -1,11 +1,9 @@
 import requests
 import logging
-from django.conf import settings
 from django.utils import timezone
 from .models import Character, Film, Starship, DataSyncStatus
 from datetime import datetime
 from typing import Dict, List, Optional
-import urllib3
 
 logger = logging.getLogger(__name__)
 

@@ -1,4 +1,4 @@
-from rest_framework import viewsets, status
+from rest_framework import mixins, viewsets, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from django_filters.rest_framework import DjangoFilterBackend
@@ -20,7 +20,11 @@ class StandardResultsSetPagination(PageNumberPagination):
     max_page_size = 100
 
 @extend_schema(tags=['Voting'])
-class VoteViewSet(viewsets.ModelViewSet):
+class VoteViewSet(mixins.CreateModelMixin,
+                  mixins.ListModelMixin,
+                  mixins.RetrieveModelMixin,
+                  mixins.DestroyModelMixin,
+                  viewsets.GenericViewSet):
     queryset = Vote.objects.all()
     serializer_class = VoteSerializer
     pagination_class = StandardResultsSetPagination
