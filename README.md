@@ -61,7 +61,7 @@ CORS_ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
 3. **Database setup:**
 ```bash
 # Create PostgreSQL database 'starwars_db'
-createdb starwars_db
+createdb starwars_db ( or manually just create a database the name is an example it depends how you add it later on, on your .env)
 
 # Run migrations
 python manage.py makemigrations
@@ -222,7 +222,3 @@ ALLOWED_HOSTS=yourdomain.com,www.yourdomain.com
 - [x] **Unit Testing**: 80%+ coverage with mocked external calls
 - [x] **Documentation**: Comprehensive Swagger/OpenAPI documentation
 - [x] **Security**: Environment variables and secure configuration
-
----
-
-**Ready for production deployment and technical assessment!** 🚀
